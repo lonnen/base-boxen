@@ -49,6 +49,11 @@ GITHUBTARBALL
     ruby (3.1.0)
 
 GITHUBTARBALL
+  remote: boxen/puppet-sublime_text_2
+  specs:
+    sublime_text_2 (1.1.0)
+
+GITHUBTARBALL
   remote: boxen/puppet-sudo
   specs:
     sudo (1.0.0)
@@ -76,5 +81,6 @@ DEPENDENCIES
   nvm (= 1.0.0)
   ruby (= 3.1.0)
   stdlib (= 3.0.0)
+  sublime_text_2 (= 1.1.0)
   sudo (= 1.0.0)
 
