@@ -11,6 +11,12 @@ class people::lonnen {
   }
 
   exec { 'bash -c "$(curl -fsSL https://raw.github.com/lonnen/dotfiles/master/bin/dotfiles)" && source ~/.bashrc':
-    alias => 'install-dotfiles'
+    alias => 'install-dotfiles',
+    creates => '~/.dotfiles'
+  }
+
+  exec { 'dotfiles':
+    alias => 'update-dotfiles',
+    onlyif => "type -P dotfiles"
   }
 }
