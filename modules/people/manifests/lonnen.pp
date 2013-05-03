@@ -10,9 +10,9 @@ class people::lonnen {
     alias => 'clone-socorro'
   }
 
-  exec { 'bash -c "$(curl -fsSL https://raw.github.com/lonnen/dotfiles/master/bin/dotfiles)" && source ~/.bashrc':
+  exec { 'bash -c "$(curl -fsSL https://raw.github.com/lonnen/dotfiles/master/bin/dotfiles)"':
     alias => 'install-dotfiles',
-    creates => '~/.dotfiles'
+    unless => 'type -P dotfiles'
   }
 
   exec { 'dotfiles':
