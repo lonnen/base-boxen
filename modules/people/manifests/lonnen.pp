@@ -1,6 +1,7 @@
 class people::lonnen {
   include alfred
   include dropbox
+  include istatmenus4
   include sublime_text_2
 
   $home = "/Users/${::boxen_user}"

@@ -36,4 +36,5 @@ github "sudo",     "1.0.0"
 
 github "alfred", "1.0.2"
 github "dropbox", "1.1.0"
+github "istatmenus4", "1.0.0"
 github "sublime_text_2", "1.1.0"
