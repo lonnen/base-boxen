@@ -1,7 +1,9 @@
 class people::lonnen {
   include alfred
   include dropbox
+  include firefox::nightly
   include istatmenus4
+  include python
   include sublime_text_2
 
   $home = "/Users/${::boxen_user}"
