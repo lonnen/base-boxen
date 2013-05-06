@@ -1,4 +1,5 @@
 class people::lonnen {
+  include alfred
   include dropbox
   include sublime_text_2
 
