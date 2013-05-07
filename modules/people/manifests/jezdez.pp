@@ -5,7 +5,6 @@ class people::jezdez {
   include dropbox
   include firefox::nightly
   include istatmenus4
-  include iterm2
   include nodejs
   include postgresapp
   include python
