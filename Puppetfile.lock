@@ -1,4 +1,9 @@
 GITHUBTARBALL
+  remote: boxen/puppet-adium
+  specs:
+    adium (1.1.1)
+
+GITHUBTARBALL
   remote: boxen/puppet-alfred
   specs:
     alfred (1.0.2)
@@ -7,6 +12,16 @@ GITHUBTARBALL
   remote: boxen/puppet-boxen
   specs:
     boxen (1.2.0)
+
+GITHUBTARBALL
+  remote: boxen/puppet-chrome
+  specs:
+    chrome (1.1.0)
+
+GITHUBTARBALL
+  remote: boxen/puppet-colloquy
+  specs:
+    colloquy (1.0.0)
 
 GITHUBTARBALL
   remote: boxen/puppet-dnsmasq
@@ -49,6 +64,11 @@ GITHUBTARBALL
     istatmenus4 (1.0.0)
 
 GITHUBTARBALL
+  remote: boxen/puppet-iterm2
+  specs:
+    iterm2 (1.0.2)
+
+GITHUBTARBALL
   remote: boxen/puppet-nginx
   specs:
     nginx (1.1.0)
@@ -62,6 +82,11 @@ GITHUBTARBALL
   remote: boxen/puppet-nvm
   specs:
     nvm (1.0.0)
+
+GITHUBTARBALL
+  remote: boxen/puppet-postgresapp
+  specs:
+    postgresapp (1.0.0)
 
 GITHUBTARBALL
   remote: boxen/puppet-python
@@ -84,6 +109,16 @@ GITHUBTARBALL
     sudo (1.0.0)
 
 GITHUBTARBALL
+  remote: boxen/puppet-textual
+  specs:
+    textual (1.0.0)
+
+GITHUBTARBALL
+  remote: boxen/puppet-vagrant
+  specs:
+    vagrant (2.0.6)
+
+GITHUBTARBALL
   remote: boxen/puppet-xquartz
   specs:
     xquartz (1.1.0)
@@ -99,8 +134,11 @@ GITHUBTARBALL
     stdlib (3.0.0)
 
 DEPENDENCIES
+  adium (= 1.1.1)
   alfred (= 1.0.2)
   boxen (= 1.2.0)
+  chrome (= 1.1.0)
+  colloquy (= 1.0.0)
   dnsmasq (= 1.0.0)
   dropbox (= 1.1.0)
   firefox (= 1.0.6)
@@ -110,13 +148,17 @@ DEPENDENCIES
   hub (= 1.0.0)
   inifile (= 0.9.0)
   istatmenus4 (= 1.0.0)
+  iterm2 (= 1.0.2)
   nginx (= 1.1.0)
   nodejs (= 1.0.0)
   nvm (= 1.0.0)
+  postgresapp (= 1.0.0)
   python (= 1.1.1)
   ruby (= 3.1.0)
   stdlib (= 3.0.0)
   sublime_text_2 (= 1.1.0)
   sudo (= 1.0.0)
+  textual (= 1.0.0)
+  vagrant (= 2.0.6)
   xquartz (= 1.1.0)
 
