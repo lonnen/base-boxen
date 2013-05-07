@@ -9,6 +9,7 @@ class people::jezdez {
   include python
   include sublime_text_2
   include textual
+  include virtualbox
   include vagrant
 
   $home = "/Users/${::boxen_user}"

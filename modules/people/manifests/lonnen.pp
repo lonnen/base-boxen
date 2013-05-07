@@ -8,6 +8,7 @@ class people::lonnen {
   include postgresapp
   include python
   include sublime_text_2
+  include virtualbox
   include vagrant
 
   $home = "/Users/${::boxen_user}"
