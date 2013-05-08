@@ -41,7 +41,7 @@ github "chrome", "1.1.0"
 github "dropbox", "1.1.0"
 github "firefox", "1.0.6"
 github "istatmenus4", "1.0.0"
-#github "iterm2", "1.0.0" # <-- puppet cannot find class iterm2, 1.0.0 - 1.0.2
+github "iterm2", "1.0.0" # <-- puppet cannot find class iterm2, 1.0.0 - 1.0.2
 github "postgresapp", "1.0.0"
 github "python", "1.1.1"
 #github "ruby", "4.1.0"
