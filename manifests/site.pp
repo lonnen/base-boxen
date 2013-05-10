@@ -71,6 +71,17 @@ node default {
   include ruby::1_9_3
   include ruby::2_0_0
 
+  # moz webdev's classic hits
+  include chrome
+  include firefox::nightly
+  include firefox::aurora
+  include firefox::beta
+  include firefox::release
+  include iterm2::dev
+  include python
+  include vagrant
+  include virtualbox
+
   # common, useful packages
   package {
     [
