@@ -4,6 +4,7 @@ class people::lonnen {
   include dropbox
   include istatmenus4
   include postgresapp
+  include spotify
   include sublime_text_2
 
   $home = "/Users/${::boxen_user}"
