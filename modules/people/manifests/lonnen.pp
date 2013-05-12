@@ -5,6 +5,7 @@ class people::lonnen {
   include flux
   include googleearth
   include istatmenus4
+  include minecraft
   include postgresapp
   include spotify
   include sublime_text_2
