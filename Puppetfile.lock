@@ -104,6 +104,11 @@ GITHUBTARBALL
     ruby (4.1.0)
 
 GITHUBTARBALL
+  remote: boxen/puppet-skype
+  specs:
+    skype (1.0.2)
+
+GITHUBTARBALL
   remote: boxen/puppet-spotify
   specs:
     spotify (1.0.0)
@@ -177,6 +182,7 @@ DEPENDENCIES
   postgresapp (= 1.0.0)
   python (= 1.1.1)
   ruby (= 4.1.0)
+  skype (= 1.0.2)
   spotify (= 1.0.0)
   stdlib (= 4.0.0)
   sublime_text_2 (= 1.1.0)
