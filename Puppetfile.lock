@@ -129,6 +129,11 @@ GITHUBTARBALL
     textual (1.0.0)
 
 GITHUBTARBALL
+  remote: boxen/puppet-transmission
+  specs:
+    transmission (1.0.0)
+
+GITHUBTARBALL
   remote: boxen/puppet-vagrant
   specs:
     vagrant (2.0.6)
@@ -188,6 +193,7 @@ DEPENDENCIES
   sublime_text_2 (= 1.1.0)
   sudo (= 1.0.0)
   textual (= 1.0.0)
+  transmission (= 1.0.0)
   vagrant (= 2.0.6)
   virtualbox (= 1.0.2)
   xquartz (= 1.1.0)
