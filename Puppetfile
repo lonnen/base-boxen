@@ -34,6 +34,8 @@ github "sudo",     "1.0.0"
 # Optional/custom modules. There are tons available at
 # https://github.com/boxen.
 
+# commented out entries are a wishlist
+
 github "adium", "1.1.1"
 github "alfred", "1.0.2"
 #github "bittorrentsync", "1.0.0", :repo => "lonnen/puppet-bittorrentsync"
@@ -63,5 +65,5 @@ github "transmission", "1.0.0"
 github "vagrant", "2.0.6"
 #github "vidyo", "1.0.0"
 github "virtualbox", "1.0.2"
-#github "vlc", "1.0.0"
+github "vlc", "1.0.1"
 github "xquartz", "1.1.0"
