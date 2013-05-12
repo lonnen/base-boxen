@@ -10,6 +10,7 @@ class people::lonnen {
   include skype
   include spotify
   include sublime_text_2
+  include tunnelblick
   include transmission
 
   $home = "/Users/${::boxen_user}"
