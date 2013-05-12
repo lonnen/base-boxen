@@ -2,6 +2,7 @@ class people::lonnen {
   include adium
   include alfred
   include dropbox
+  include flux
   include istatmenus4
   include postgresapp
   include spotify
