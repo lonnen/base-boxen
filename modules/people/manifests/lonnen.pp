@@ -4,6 +4,7 @@ class people::lonnen {
   include dropbox
   include flux
   include googleearth
+  include heroku
   include istatmenus4
   include minecraft
   include postgresapp
