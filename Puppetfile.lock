@@ -169,9 +169,9 @@ GITHUBTARBALL
     inifile (0.9.0)
 
 GITHUBTARBALL
-  remote: lonnen/puppet-firefox
+  remote: mozilla-boxen/puppet-firefox
   specs:
-    firefox (1.0.7b2)
+    firefox (1.0.7b3)
 
 GITHUBTARBALL
   remote: puppetlabs/puppetlabs-stdlib
@@ -186,7 +186,7 @@ DEPENDENCIES
   colloquy (= 1.0.0)
   dnsmasq (= 1.0.0)
   dropbox (= 1.1.0)
-  firefox (= 1.0.7b2)
+  firefox (= 1.0.7b3)
   flux (= 0.0.1)
   gcc (= 1.0.0)
   git (= 1.0.0)
