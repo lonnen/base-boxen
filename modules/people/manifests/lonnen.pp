@@ -11,8 +11,8 @@ class people::lonnen {
   include skype
   include spotify
   include sublime_text_2
-  include tunnelblick
   include transmission
+  include viscosity
 
   $home = "/Users/${::boxen_user}"
   $repos = "${home}/repos"

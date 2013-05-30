@@ -154,6 +154,11 @@ GITHUBTARBALL
     virtualbox (1.0.2)
 
 GITHUBTARBALL
+  remote: boxen/puppet-viscosity
+  specs:
+    viscosity (1.0.0)
+
+GITHUBTARBALL
   remote: boxen/puppet-vlc
   specs:
     vlc (1.0.1)
@@ -213,6 +218,7 @@ DEPENDENCIES
   tunnelblick (= 1.0.0)
   vagrant (= 2.0.6)
   virtualbox (= 1.0.2)
+  viscosity (= 1.0.0)
   vlc (= 1.0.1)
   xquartz (= 1.1.0)
 
