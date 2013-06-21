@@ -39,6 +39,11 @@ GITHUBTARBALL
     flux (0.0.1)
 
 GITHUBTARBALL
+  remote: boxen/puppet-foreman
+  specs:
+    foreman (1.0.0)
+
+GITHUBTARBALL
   remote: boxen/puppet-gcc
   specs:
     gcc (1.0.0)
@@ -193,6 +198,7 @@ DEPENDENCIES
   dropbox (= 1.1.0)
   firefox (= 1.0.7b3)
   flux (= 0.0.1)
+  foreman (= 1.0.0)
   gcc (= 1.0.0)
   git (= 1.0.0)
   googleearth (= 1.0.0)

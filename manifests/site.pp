@@ -70,6 +70,7 @@ node default {
 
   # moz webdev's classic hits
   include chrome
+  include foreman
   include firefox::nightly
   include firefox::aurora
   include firefox::beta
