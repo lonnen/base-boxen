@@ -8,6 +8,7 @@ class people::lonnen {
   include istatmenus4
   include minecraft
   include postgresapp
+  include redis
   include skype
   include spotify
   include sublime_text_2
