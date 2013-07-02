@@ -154,6 +154,11 @@ GITHUBTARBALL
     tunnelblick (1.0.1)
 
 GITHUBTARBALL
+  remote: boxen/puppet-upshot
+  specs:
+    upshot (1.0.0)
+
+GITHUBTARBALL
   remote: boxen/puppet-vagrant
   specs:
     vagrant (2.0.6)
@@ -228,6 +233,7 @@ DEPENDENCIES
   textual (= 1.0.0)
   transmission (= 1.0.0)
   tunnelblick (= 1.0.1)
+  upshot (= 1.0.0)
   vagrant (= 2.0.6)
   virtualbox (= 1.0.4)
   viscosity (= 1.0.0)
