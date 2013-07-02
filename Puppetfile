@@ -38,7 +38,7 @@ github "sudo",     "1.0.0"
 
 github "adium", "1.1.1"
 github "alfred", "1.0.2"
-#github "bittorrentsync", "1.0.0", :repo => "lonnen/puppet-bittorrentsync"
+github "btsync", "1.0.0"
 github "colloquy", "1.0.0"
 github "chrome", "1.1.0"
 github "dropbox", "1.1.1"

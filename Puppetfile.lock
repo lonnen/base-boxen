@@ -14,6 +14,11 @@ GITHUBTARBALL
     boxen (1.2.0)
 
 GITHUBTARBALL
+  remote: boxen/puppet-btsync
+  specs:
+    btsync (1.0.0)
+
+GITHUBTARBALL
   remote: boxen/puppet-chrome
   specs:
     chrome (1.1.0)
@@ -202,6 +207,7 @@ DEPENDENCIES
   adium (= 1.1.1)
   alfred (= 1.0.2)
   boxen (= 1.2.0)
+  btsync (= 1.0.0)
   chrome (= 1.1.0)
   colloquy (= 1.0.0)
   dnsmasq (= 1.0.0)

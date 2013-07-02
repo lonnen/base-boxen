@@ -1,6 +1,7 @@
 class people::lonnen {
   include adium
   include alfred
+  include btsync
   include dropbox
   include flux
   include googleearth
