@@ -194,9 +194,19 @@ GITHUBTARBALL
     inifile (0.9.0)
 
 GITHUBTARBALL
+  remote: jhbabon/puppet-cloudapp
+  specs:
+    cloudapp (1.0.0)
+
+GITHUBTARBALL
   remote: mozilla-boxen/puppet-firefox
   specs:
     firefox (1.0.7b3)
+
+GITHUBTARBALL
+  remote: mozilla-boxen/puppet-limechat
+  specs:
+    limechat (1.1.0)
 
 GITHUBTARBALL
   remote: puppetlabs/puppetlabs-stdlib
@@ -209,6 +219,7 @@ DEPENDENCIES
   boxen (= 1.2.0)
   btsync (= 1.0.0)
   chrome (= 1.1.0)
+  cloudapp (= 1.0.0)
   colloquy (= 1.0.0)
   dnsmasq (= 1.0.0)
   dropbox (= 1.1.1)
@@ -224,6 +235,7 @@ DEPENDENCIES
   inifile (= 0.9.0)
   istatmenus4 (= 1.0.0)
   iterm2 (= 1.0.0)
+  limechat (= 1.1.0)
   minecraft (= 1.0.1)
   nginx (= 1.1.0)
   nodejs (= 2.2.0)
