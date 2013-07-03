@@ -33,4 +33,9 @@ class people::lonnen {
     alias => 'update-dotfiles',
     require => Exec[install-dotfiles]
   }
+
+  exec { "curl -fsSL https://dl.bintray.com/mitchellh/packer/0.1.3_darwin_amd64.zip?direct > ${home}/packer.zip && mkdir ${home}/packer && unzip -a ${home}/packer.zip -d ${home}/packer && rm ${home}/packer.zip":
+    alias => 'download-packer',
+    creates => "${home}/packer"
+  }
 }
