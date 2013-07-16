@@ -104,6 +104,11 @@ GITHUBTARBALL
     nodejs (2.2.0)
 
 GITHUBTARBALL
+  remote: boxen/puppet-packer
+  specs:
+    packer (1.0.2)
+
+GITHUBTARBALL
   remote: boxen/puppet-phantomjs
   specs:
     phantomjs (1.0.0)
@@ -249,6 +254,7 @@ DEPENDENCIES
   minecraft (= 1.0.1)
   nginx (= 1.4.0)
   nodejs (= 2.2.0)
+  packer (= 1.0.2)
   phantomjs (= 1.0.0)
   postgresapp (= 1.0.0)
   python (= 1.2.1)
