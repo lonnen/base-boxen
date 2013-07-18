@@ -72,12 +72,7 @@ node default {
   include ruby::2_0_0
 
   # moz webdev's classic hits
-  include chrome
   include foreman
-  include firefox::nightly
-  include firefox::aurora
-  include firefox::beta
-  include firefox::release
   include iterm2::dev
   include python
   include vagrant

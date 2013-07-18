@@ -39,6 +39,11 @@ GITHUBTARBALL
     dropbox (1.1.1)
 
 GITHUBTARBALL
+  remote: boxen/puppet-firefox
+  specs:
+    firefox (1.1.1)
+
+GITHUBTARBALL
   remote: boxen/puppet-flux
   specs:
     flux (0.0.1)
@@ -214,11 +219,6 @@ GITHUBTARBALL
     cloudapp (1.0.0)
 
 GITHUBTARBALL
-  remote: mozilla-boxen/puppet-firefox
-  specs:
-    firefox (1.0.7b3)
-
-GITHUBTARBALL
   remote: mozilla-boxen/puppet-limechat
   specs:
     limechat (1.1.0)
@@ -238,7 +238,7 @@ DEPENDENCIES
   colloquy (= 1.0.0)
   dnsmasq (= 1.0.0)
   dropbox (= 1.1.1)
-  firefox (= 1.0.7b3)
+  firefox (= 1.1.1)
   flux (= 0.0.1)
   foreman (= 1.0.0)
   gcc (= 1.0.0)

@@ -2,7 +2,12 @@ class people::lonnen {
   include adium
   include alfred
   include btsync
+  include chrome
   include dropbox
+  include firefox::nightly
+  include firefox::aurora
+  include firefox::beta
+  include firefox
   include flux
   include googleearth
   include heroku
