@@ -16,12 +16,10 @@ Afterwards, periodically run the command `boxen` to pull down updates. You proba
 
 It will install a bunch of stuff into `/opt/boxen`, and set up a repository in `~/src/our-boxen`. It will also setup a couple common tools and development environments, including --
 
-* git
+* git(hub)
 * homebrew
-* hub
 * iterm2
 * nginx
-
 * node
 * python
 * ruby
