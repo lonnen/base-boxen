@@ -28,7 +28,7 @@ and more. Details on _exactly_ what is setup for everyone is in the (`site.pp`)[
 
 # Customizing it
 
-First cd into `~/src/out-boxen`, or wherever your local boxen repo is located. This is a git repo containing the group's boxen. You can create branches, make your modifications, push to your fork, and make PRs like any other repo. The `boxen` command tries to update this git repo first, so if you have a dirty tree or if you've diverged from master it will complain loudly. Local changes will still apply, but you won't be able to pull down updates automatically if you diverge. Be careful modifying this -- the boxen is a shared resource across projects.
+First cd into `~/src/our-boxen`, or wherever your local boxen repo is located. This is a git repo containing the group's boxen. You can create branches, make your modifications, push to your fork, and make PRs like any other repo. The `boxen` command tries to update this git repo first, so if you have a dirty tree or if you've diverged from master it will complain loudly. Local changes will still apply, but you won't be able to pull down updates automatically if you diverge. Be careful modifying this -- the boxen is a shared resource across projects.
 
 You can customize your install with a [personal manifest](https://github.com/mozilla-boxen/base-boxen/tree/master/modules/people). Check out existing manifests for examples. For a list of software you can include, see the [Puppetfile](https://github.com/mozilla-boxen/base-boxen/blob/master/Puppetfile#L39).
 
