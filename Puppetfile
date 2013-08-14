@@ -38,7 +38,7 @@ github "sudo",       "1.0.0"
 
 github "adium", "1.1.1"
 github "android", "1.0.0"
-github "alfred", "1.0.2"
+github "alfred", "1.1.2"
 github "btsync", "1.0.0"
 github "colloquy", "1.0.0"
 github "cloudapp", "1.0.0", :repo => "jhbabon/puppet-cloudapp"
