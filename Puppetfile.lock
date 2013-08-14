@@ -9,6 +9,11 @@ GITHUBTARBALL
     alfred (1.0.2)
 
 GITHUBTARBALL
+  remote: boxen/puppet-android
+  specs:
+    android (1.0.0)
+
+GITHUBTARBALL
   remote: boxen/puppet-boxen
   specs:
     boxen (2.1.0)
@@ -236,6 +241,7 @@ GITHUBTARBALL
 DEPENDENCIES
   adium (= 1.1.1)
   alfred (= 1.0.2)
+  android (= 1.0.0)
   boxen (= 2.1.0)
   btsync (= 1.0.0)
   chrome (= 1.1.0)
