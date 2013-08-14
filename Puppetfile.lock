@@ -44,6 +44,11 @@ GITHUBTARBALL
     dropbox (1.1.1)
 
 GITHUBTARBALL
+  remote: boxen/puppet-elasticsearch
+  specs:
+    elasticsearch (0.3.0)
+
+GITHUBTARBALL
   remote: boxen/puppet-firefox
   specs:
     firefox (1.1.1)
@@ -249,6 +254,7 @@ DEPENDENCIES
   colloquy (= 1.0.0)
   dnsmasq (= 1.0.0)
   dropbox (= 1.1.1)
+  elasticsearch (= 0.3.0)
   firefox (= 1.1.1)
   flux (= 0.0.1)
   foreman (= 1.0.0)
