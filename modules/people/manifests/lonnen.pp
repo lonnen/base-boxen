@@ -9,6 +9,7 @@ class people::lonnen {
   include firefox::beta
   include firefox
   include flux
+  include go
   include googleearth
   include heroku
   include istatmenus4
