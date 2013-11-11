@@ -74,6 +74,11 @@ GITHUBTARBALL
     git (1.2.2)
 
 GITHUBTARBALL
+  remote: boxen/puppet-go
+  specs:
+    go (2.0.1)
+
+GITHUBTARBALL
   remote: boxen/puppet-googleearth
   specs:
     googleearth (1.0.0)
@@ -260,6 +265,7 @@ DEPENDENCIES
   foreman (= 1.0.0)
   gcc (= 1.0.0)
   git (= 1.2.2)
+  go (= 2.0.1)
   googleearth (= 1.0.0)
   heroku (= 2.0.0)
   homebrew (= 1.1.2)
