@@ -1,18 +1,27 @@
 class people::lonnen {
   include adium
   include alfred
+  include btsync
+  include chrome
   include dropbox
+  include firefox::nightly
+  include firefox::aurora
+  include firefox::beta
+  include firefox
   include flux
+  include go
   include googleearth
   include heroku
   include istatmenus4
   include minecraft
+  include packer
   include postgresapp
+  include redis
   include skype
   include spotify
   include sublime_text_2
-  include tunnelblick
   include transmission
+  include viscosity
 
   $home = "/Users/${::boxen_user}"
   $repos = "${home}/repos"
