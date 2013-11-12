@@ -28,7 +28,7 @@ It will install a bunch of stuff into `/opt/boxen`, and set up a repository in `
 * Findutils
 * GNU tar
 
-and more. Details on _exactly_ what is setup for everyone is in the (`site.pp`)[https://github.com/mozilla-boxen/base-boxen/blob/master/manifests/site.pp].
+and more. Details on _exactly_ what is setup for everyone is in the [`site.pp`](https://github.com/mozilla-boxen/base-boxen/blob/master/manifests/site.pp).
 
 # Customizing it
 
