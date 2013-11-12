@@ -6,7 +6,7 @@ A [bunch of puppet](http://boxen.github.com/) for OSX development environments m
 
 You'll need to manually install Xcode with the command line extensions, and turn on FileVault's full disk encryption.
 
-Then, visit http://base-boxen.herokuapp.com/ and follow the on screen instructions. To inspect exactly what's going to be run, click the instructions to see the script that will be run.
+Then, visit http://mozilla-boxen.github.io/base-boxen/ and follow the on screen instructions. To inspect exactly what's going to be run, click the instructions to see the script that will be run.
 
 You'll be prompted with a few questions initially, but most of the install will pass by unattended. At the end you'll be asked to open a new shell or source something -- just open a new shell.
 
