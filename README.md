@@ -16,13 +16,17 @@ Afterwards, periodically run the command `boxen` to pull down updates. You proba
 
 It will install a bunch of stuff into `/opt/boxen`, and set up a repository in `~/src/our-boxen`. It will also setup a couple common tools and development environments, including --
 
-* git(hub)
+* git + hub
 * homebrew
 * iterm2
 * nginx
 * node
 * python
 * ruby
+* dnsmasq w/ .dev resolver for localhost
+* ack
+* Findutils
+* GNU tar
 
 and more. Details on _exactly_ what is setup for everyone is in the (`site.pp`)[https://github.com/mozilla-boxen/base-boxen/blob/master/manifests/site.pp].
 
@@ -43,6 +47,11 @@ github "{{package name}}", "{{ tag }}"[, :repo => "{{ ghuser }}/{{ repo name}}"]
 Packages follow this particular format corresponding to a github repo. By default, the `github` macro assumes your package is on github in the repo `boxen/puppet-{{package name}}`. If it's located elsewhere (like some of our custom packages) you'll need to specify the optional `:repo` symbol.
 
 Then, run `boxen` locally. Boxen will install the package and cache a tarball. `git add` the changes, including the cached tarball, to the repository. Don't forget that you'll need to include the new package in `site.pp`, a project, or your personal manifest for it to take effect. Then commit your changes and open a PR to get it upstreamed into the mozilla-boxen.
+
+If you're using a Github Enterprise instance rather than github.com,
+you will need to set the `BOXEN_GITHUB_ENTERPRISE_URL` and
+`BOXEN_REPO_URL_TEMPLATE` variables in your
+[Boxen config](config/boxen.rb).
 
 # Troubleshooting
 
