@@ -9,7 +9,10 @@ class people::lonnen {
   include firefox::beta
   include firefox
   include flux
+
   include go
+  go::version { '1.1.1': }
+
   include googleearth
   include heroku
   include istatmenus4
