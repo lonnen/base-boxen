@@ -49,11 +49,6 @@ GITHUBTARBALL
     elasticsearch (0.3.0)
 
 GITHUBTARBALL
-  remote: boxen/puppet-firefox
-  specs:
-    firefox (1.1.1)
-
-GITHUBTARBALL
   remote: boxen/puppet-flux
   specs:
     flux (0.0.1)
@@ -244,6 +239,11 @@ GITHUBTARBALL
     cloudapp (1.0.0)
 
 GITHUBTARBALL
+  remote: mozilla-boxen/puppet-firefox
+  specs:
+    firefox (1.1.6)
+
+GITHUBTARBALL
   remote: mozilla-boxen/puppet-limechat
   specs:
     limechat (1.1.0)
@@ -270,7 +270,7 @@ DEPENDENCIES
   dnsmasq (= 1.0.0)
   dropbox (= 1.1.1)
   elasticsearch (= 0.3.0)
-  firefox (= 1.1.1)
+  firefox (= 1.1.6)
   flux (= 0.0.1)
   foreman (= 1.0.0)
   foreman (= 1.0.0)
