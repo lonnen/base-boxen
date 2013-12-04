@@ -129,6 +129,11 @@ GITHUBTARBALL
     openssl (1.0.0)
 
 GITHUBTARBALL
+  remote: boxen/puppet-osx
+  specs:
+    osx (2.2.0)
+
+GITHUBTARBALL
   remote: boxen/puppet-packer
   specs:
     packer (1.0.2)
@@ -290,6 +295,7 @@ DEPENDENCIES
   nginx (= 1.4.2)
   nodejs (= 3.3.0)
   openssl (= 1.0.0)
+  osx (= 2.2.0)
   packer (= 1.0.2)
   phantomjs (= 2.0.2)
   pkgconfig (= 1.0.0)
