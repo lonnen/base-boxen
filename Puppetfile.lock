@@ -191,7 +191,7 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-textual
   specs:
-    textual (3.1.0)
+    textual (3.2.3)
 
 GITHUBTARBALL
   remote: boxen/puppet-transmission
@@ -303,7 +303,7 @@ DEPENDENCIES
   stdlib (= 4.1.0)
   sublime_text_2 (= 1.1.2)
   sudo (= 1.0.0)
-  textual (= 3.1.0)
+  textual (= 3.2.3)
   transmission (= 1.0.0)
   tunnelblick (= 1.0.2)
   upshot (= 1.0.0)
