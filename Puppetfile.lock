@@ -216,7 +216,7 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-vagrant
   specs:
-    vagrant (2.0.10)
+    vagrant (3.0.0)
 
 GITHUBTARBALL
   remote: boxen/puppet-virtualbox
@@ -313,7 +313,7 @@ DEPENDENCIES
   transmission (= 1.0.0)
   tunnelblick (= 1.0.2)
   upshot (= 1.0.0)
-  vagrant (= 2.0.10)
+  vagrant (= 3.0.0)
   virtualbox (= 1.0.4)
   viscosity (= 1.0.0)
   vlc (= 1.0.4)
