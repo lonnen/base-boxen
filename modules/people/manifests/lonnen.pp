@@ -26,13 +26,10 @@ class people::lonnen {
   include transmission
   include viscosity
 
+  include projects::socorro
+
   $home = "/Users/${::boxen_user}"
   $repos = "${home}/repos"
-
-  repository { "${repos}/socorro":
-    source => 'lonnen/socorro',
-    alias => 'clone-socorro'
-  }
 
   exec { 'bash -c "$(curl -fsSL https://raw.github.com/lonnen/dotfiles/master/bin/dotfiles)"':
     alias => 'install-dotfiles',
