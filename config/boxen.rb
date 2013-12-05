@@ -5,7 +5,7 @@
 # ENV['BOXEN_HOME'] = '/opt/boxen'
 
 # Change the repo boxen will use.
-# ENV['BOXEN_REPO_NAME'] = 'boxen/our-boxen'
+ENV['BOXEN_REPO_NAME'] = 'mozilla-boxen/base-boxen'
 
 # Boxen binary packaging
 # ENV["BOXEN_S3_ACCESS_KEY"] = ''
@@ -13,7 +13,7 @@
 # ENV["BOXEN_S3_BUCKET"] = ''
 
 # Auto-report issues on failed runs
-# ENV["BOXEN_ISSUES_ENABLED"] = 'yes'
+ENV["BOXEN_ISSUES_ENABLED"] = 'yes'
 
 # Submit audit data to an arbitrary HTTP endpoint
 # ENV["BOXEN_WEB_HOOK_URL"] = 'https://some-uri.com/boxen'
@@ -23,3 +23,6 @@
 
 # required for Github Enterprise (defaults to "https://github.com/%s")
 # ENV['BOXEN_REPO_URL_TEMPLATE'] = 'https://github.yourdomain.com/%s'
+
+# change the default src directory
+ENV["BOXEN_SRC_DIR"] = '$HOME/repos'
