@@ -4,32 +4,54 @@
 # default. This ensures at least the ability to construct a basic
 # environment.
 
-def github(name, version, options = nil)
-  options ||= {}
-  options[:repo] ||= "boxen/puppet-#{name}"
-  mod name, version, :github_tarball => options[:repo]
+# Shortcut for a module from GitHub's boxen organization
+def github(name, *args)
+  options ||= if args.last.is_a? Hash
+    args.last
+  else
+    {}
+  end
+
+  if path = options.delete(:path)
+    mod name, :path => path
+  else
+    version = args.first
+    options[:repo] ||= "boxen/puppet-#{name}"
+    mod name, version, :github_tarball => options[:repo]
+  end
+end
+
+# Shortcut for a module under development
+def dev(name, *args)
+  mod name, :path => "#{ENV['HOME']}/src/boxen/puppet-#{name}"
 end
 
 # Includes many of our custom types and providers, as well as global
 # config. Required.
 
-github "boxen", "1.2.0"
+github "boxen", "3.3.4"
 
 # Core modules for a basic development environment. You can replace
 # some/most of these if you want, but it's not recommended.
 
-github "dnsmasq",  "1.0.0"
-github "gcc",      "1.0.0"
-github "git",      "1.0.0"
-github "homebrew", "1.1.2"
-github "hub",      "1.0.0"
-github "inifile",  "0.9.0", :repo => "cprice-puppet/puppetlabs-inifile"
-github "nginx",    "1.1.0"
-github "nodejs", "2.2.0"
-#github "nvm",      "1.0.0"
-github "ruby", "4.1.0"
-github "stdlib",   "4.0.0", :repo => "puppetlabs/puppetlabs-stdlib"
-github "sudo",     "1.0.0"
+github "dnsmasq",    "1.0.0"
+github "foreman",    "1.0.0"
+github "gcc",        "2.0.1"
+github "git",        "1.2.5"
+github "go",         "2.0.1"
+github "homebrew",   "1.5.1"
+github "hub",        "1.0.3"
+github "inifile",    "1.0.0", :repo => "puppetlabs/puppetlabs-inifile"
+github "nginx",      "1.4.2"
+github "nodejs",     "3.3.0"
+github "openssl",    "1.0.0"
+github "phantomjs",  "2.0.2"
+github "pkgconfig",  "1.0.0"
+github "repository", "2.2.0"
+github "ruby",       "6.7.2"
+github "stdlib",     "4.1.0", :repo => "puppetlabs/puppetlabs-stdlib"
+github "sudo",       "1.0.0"
+github "xquartz",    "1.1.0"
 
 # Optional/custom modules. There are tons available at
 # https://github.com/boxen.
@@ -37,34 +59,44 @@ github "sudo",     "1.0.0"
 # commented out entries are a wishlist
 
 github "adium", "1.1.1"
-github "alfred", "1.0.2"
-#github "bittorrentsync", "1.0.0", :repo => "lonnen/puppet-bittorrentsync"
+github "android", "1.0.0"
+github "alfred", "1.1.2"
+github "btsync", "1.0.0"
 github "colloquy", "1.0.0"
+github "cloudapp", "1.0.0", :repo => "jhbabon/puppet-cloudapp"
 github "chrome", "1.1.0"
-github "dropbox", "1.1.0"
-github "firefox", "1.0.7b3", :repo => "mozilla-boxen/puppet-firefox"
+github "dropbox", "1.1.1"
+github "elasticsearch", "0.3.0"
+github "foreman", "1.0.0"
+github "firefox", "1.1.6", :repo => "mozilla-boxen/puppet-firefox"
 github "flux", "0.0.1"
 github "googleearth", "1.0.0"
 #github "grabbox", "1.0.0"
 github "heroku", "2.0.0"
 github "istatmenus4", "1.0.0"
 github "iterm2", "1.0.0"
+github "java", "1.1.0"
+github "limechat", "1.1.0", :repo => "mozilla-boxen/puppet-limechat"
 github "minecraft", "1.0.1"
 #github "moom", "1.0.0"
+github "packer", "1.0.2"
 #github "postbox", "1.0.0"
 github "postgresapp", "1.0.0"
-github "python", "1.1.1"
+github "python", "1.2.1"
+github "redis", "1.0.0"
 #github "setresx", "1.0.0"
-github "skype", "1.0.2"
+github "skype", "1.0.4"
 github "spotify", "1.0.0"
-#github "steam", "1.0.0"
-github "sublime_text_2", "1.1.0"
+#github "steam", "1.0.1"
+github "sublime_text_2", "1.1.2"
 #github "super_crate_box", "1.0.0"
-github "textual", "1.0.0"
-github "tunnelblick", "1.0.0"
+github "textual", "3.1.0"
+github "tunnelblick", "1.0.2"
 github "transmission", "1.0.0"
-github "vagrant", "2.0.6"
+github "upshot", "1.0.0"
+github "vagrant", "2.0.10"
 #github "vidyo", "1.0.0"
-github "virtualbox", "1.0.2"
-github "vlc", "1.0.1"
+github "virtualbox", "1.0.4"
+github "viscosity", "1.0.0"
+github "vlc", "1.0.4"
 github "xquartz", "1.1.0"
