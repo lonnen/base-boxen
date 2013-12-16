@@ -25,6 +25,7 @@ class people::lonnen {
   include sublime_text_2
   include transmission
   include viscosity
+  include vmware_fusion
 
   include projects::socorro
 
