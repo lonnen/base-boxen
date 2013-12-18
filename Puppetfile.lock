@@ -49,6 +49,11 @@ GITHUBTARBALL
     elasticsearch (0.3.0)
 
 GITHUBTARBALL
+  remote: boxen/puppet-firefox
+  specs:
+    firefox (1.1.6)
+
+GITHUBTARBALL
   remote: boxen/puppet-flux
   specs:
     flux (0.0.1)
@@ -242,11 +247,6 @@ GITHUBTARBALL
   remote: jhbabon/puppet-cloudapp
   specs:
     cloudapp (1.0.0)
-
-GITHUBTARBALL
-  remote: mozilla-boxen/puppet-firefox
-  specs:
-    firefox (1.1.6)
 
 GITHUBTARBALL
   remote: mozilla-boxen/puppet-limechat
