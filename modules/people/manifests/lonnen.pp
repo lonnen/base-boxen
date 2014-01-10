@@ -22,6 +22,7 @@ class people::lonnen {
   include redis
   include skype
   include spotify
+  include sublime_text_3
   include sublime_text_2
   include transmission
   include viscosity
