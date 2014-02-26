@@ -24,7 +24,6 @@ class people::lonnen {
   include spotify
   include sublime_text_3
   include sublime_text_2
-  include textual
   include transmission
   include viscosity
   include vmware_fusion
