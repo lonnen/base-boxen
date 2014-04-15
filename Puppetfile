@@ -58,7 +58,7 @@ github "xquartz",    "1.1.0"
 
 # commented out entries are a wishlist
 
-github "adium", "1.1.1"
+github "adium", "1.3.0"
 github "android", "1.0.0"
 github "alfred", "1.1.2"
 github "btsync", "1.0.0"
