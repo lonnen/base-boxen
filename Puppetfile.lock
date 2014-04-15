@@ -141,7 +141,7 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-packer
   specs:
-    packer (1.0.2)
+    packer (1.2.0)
 
 GITHUBTARBALL
   remote: boxen/puppet-phantomjs
@@ -299,7 +299,7 @@ DEPENDENCIES
   nginx (= 1.4.2)
   nodejs (= 3.3.0)
   openssl (= 1.0.0)
-  packer (= 1.0.2)
+  packer (= 1.2.0)
   phantomjs (= 2.0.2)
   pkgconfig (= 1.0.0)
   postgresapp (= 1.0.0)
