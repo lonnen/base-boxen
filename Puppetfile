@@ -35,7 +35,7 @@ github "boxen", "3.3.4"
 # some/most of these if you want, but it's not recommended.
 
 github "dnsmasq",    "1.0.0"
-github "foreman",    "1.0.0"
+#github "foreman",    "1.0.0" # overridden below
 github "gcc",        "2.0.1"
 github "git",        "1.3.7"
 github "go",         "2.0.1"
@@ -67,7 +67,7 @@ github "cloudapp", "1.0.0"
 github "chrome", "1.1.2"
 github "dropbox", "1.2.0"
 github "elasticsearch", "2.1.0"
-github "foreman", "1.0.0"
+github "foreman", "1.2.0"
 github "firefox", "1.1.8"
 github "flux", "0.0.1"
 github "googleearth", "1.0.0"
