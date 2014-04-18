@@ -25,4 +25,4 @@ ENV["BOXEN_ISSUES_ENABLED"] = 'yes'
 # ENV['BOXEN_REPO_URL_TEMPLATE'] = 'https://github.yourdomain.com/%s'
 
 # change the default src directory
-ENV["BOXEN_SRC_DIR"] = '$HOME/repos'
+#ENV["BOXEN_SRC_DIR"] = '~/repos'
